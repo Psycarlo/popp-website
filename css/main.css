@@ -39,7 +39,7 @@ main {
       rgba(245, 75, 55, 0.92),
       rgba(255, 94, 64, 0.92)
     ),
-    url("popp-background.png");
+    url("../images/popp-background.png");
   color: #fafafa;
 }
 
