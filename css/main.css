@@ -43,8 +43,6 @@ main {
   color: #fafafa;
 }
 
-/* linear-gradient(45deg, #e81220, #f54b37, #ff5e40); */
-
 main > .intro {
   font-family: "Catamaran", sans-serif;
   font-size: 3.75em;
@@ -56,3 +54,5 @@ main > .tagline {
   margin: 1.5rem 0;
   font-weight: 100;
 }
+
+/* Logo */
