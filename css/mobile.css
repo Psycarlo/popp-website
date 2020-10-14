@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 5em 4em 0 4em;
+  padding: 8% 10% 0 10%;
   background-image: linear-gradient(
     45deg,
     rgba(232, 18, 32, 0.92),
@@ -22,15 +22,98 @@ body {
 
 .top-nav {
   text-align: center;
-  padding-bottom: 6rem;
+  padding-bottom: 8%;
 }
 
 .logo {
-  width: 140px;
+  width: 130px;
 }
 
 .landing > .intro {
   line-height: 5rem;
   font-size: 4rem;
   font-weight: bold;
+}
+
+.display {
+  padding-left: 5%;
+}
+
+.display > .phone-mock {
+  width: 30vh;
+}
+
+.form-subscribe {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.form-subscribe > .field-title {
+  font-weight: bold;
+  text-align: left;
+  font-size: 2.8rem;
+}
+
+.form-subscribe > .input-email {
+  width: 100%;
+  display: block;
+  -webkit-appearance: none;
+  border: 0;
+  font-family: inherit;
+  font-size: 2.2rem;
+  font-weight: 300;
+  background: none;
+  border-radius: 0;
+  color: white;
+  padding-left: 4%;
+  height: 80px;
+  border: none;
+  border-bottom: 3px solid white;
+}
+
+.form-subscribe > .input-email:focus {
+  outline: none;
+}
+
+.form-subscribe > .input-email:focus::placeholder {
+  color: transparent;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e2dfdf;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #e2dfdf;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #e2dfdf;
+}
+
+.form-subscribe > .text-privacy {
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+.form-subscribe > .text-privacy > .link-privacy {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.form-subscribe > .btn-subscribe {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  color: #1c1a1c;
+  background-color: white;
+  width: 60%;
+  margin: 3% auto 0 auto;
+  padding: 2.5%;
 }
