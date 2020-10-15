@@ -12,6 +12,10 @@
   <br>
 </p>
 
+# Frameworks
+
+This website is using [Tailwindcss](https://tailwindcss.com/)
+
 # Credits
 
 Background Image by Johann Siemens - [unsplash](https://unsplash.com/photos/EPy0gBJzzZU)
