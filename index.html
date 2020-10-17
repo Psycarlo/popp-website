@@ -20,8 +20,26 @@
         na tua área, numa só <br />
         aplicação!
       </h1>
-      <img src="images/popp-mock.png" class="popp-mock" alt="Popp App Mock" />
+      <div>
+        <img src="images/popp-mock.png" class="popp-mock" alt="Popp App Mock" />
+      </div>
     </section>
-    <section class="email-form"></section>
+    <section class="email-form">
+      <form>
+        <h2>Introduz o teu email</h2>
+        <input
+          class="input-email"
+          type="email"
+          placeholder="oteuemail@mail.com"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
+        />
+        <p class="text-privacy">
+          Lê a nossa
+          <a href="#" class="link-privacy">Política de Privacidade</a>
+        </p>
+        <a class="btn-subscribe">SUBSCRIBE</a>
+      </form>
+    </section>
   </body>
 </html>

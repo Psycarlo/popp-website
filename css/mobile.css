@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-  width: 56px;
+  width: 3em;
 }
 
 .content {
@@ -33,7 +33,108 @@ header {
 }
 
 .content .popp-mock {
-  width: 22vh;
+  width: 15em;
+}
+
+.content div {
+  text-align: center;
+}
+
+.email-form {
+  margin: 2em;
+  text-align: center;
+}
+
+.email-form form h2 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.email-form form input {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  -webkit-appearance: none;
+  border: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 300;
+  background: none;
+  border-radius: 0;
+  color: white;
+  padding-left: 1em;
+  height: 2em;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.email-form form input:focus {
+  outline: none;
+}
+
+.email-form form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.email-form form input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.email-form form input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.email-form form input:focus::placeholder {
+  color: transparent;
+}
+
+.email-form form input::-webkit-input-placeholder {
+  color: #e2dfdf;
+  opacity: 1;
+}
+
+.email-form form input:-ms-input-placeholder {
+  color: #e2dfdf;
+  opacity: 1;
+}
+
+.email-form form input::-ms-input-placeholder {
+  color: #e2dfdf;
+  opacity: 1;
+}
+
+.email-form form input::placeholder {
+  color: #e2dfdf;
+  opacity: 1;
+}
+
+.email-form form .text-privacy {
+  font-size: 0.7rem;
+  text-align: right;
+  max-width: 480px;
+}
+
+.email-form form .text-privacy .link-privacy {
+  text-decoration: underline;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.email-form form .btn-subscribe {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 9999px;
+  color: #1c1a1c;
+  background-color: white;
+  width: 60%;
+  max-width: 250px;
+  margin: 1em auto 0 auto;
+  padding: 0.8em;
 }
 
 @media (max-width: 362px) {
