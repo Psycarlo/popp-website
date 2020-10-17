@@ -1,124 +1,44 @@
-html,
+@import url(https://fonts.googleapis.com/css2?family=Catamaran:wght@300;500;700&display=swap);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  font-family: "Catamaran", sans-serif;
   margin: 0;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.landing {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding: 3vh 5vh 0 5vh;
-  background-image: linear-gradient(
-    45deg,
-    rgba(232, 18, 32, 0.92),
-    rgba(245, 75, 55, 0.92),
-    rgba(255, 94, 64, 0.92)
-  );
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
   color: white;
+  background-image: linear-gradient(45deg, rgba(232, 18, 32, 0.92), rgba(245, 75, 55, 0.92), rgba(255, 94, 64, 0.92));
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.top-nav {
+header {
+  margin: 2em;
   text-align: center;
-  padding-bottom: 2vh;
 }
 
 .logo {
-  width: 128px;
+  width: 56px;
 }
 
-.landing > .intro {
-  line-height: 4vh;
-  font-size: 4rem;
+.content {
+  padding: 0 1.8em 0;
+}
+
+.content h1 {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.display {
-  justify-content: center;
-  text-align: center;
+.content .popp-mock {
+  width: 22vh;
 }
 
-.display > .phone-mock {
-  width: 28vh;
+@media (max-width: 362px) {
+  .content {
+    text-align: center;
+  }
 }
-
-.form-subscribe {
-  text-align: center;
-}
-
-.form-subscribe > .field-title {
-  font-weight: bold;
-  text-align: left;
-  font-size: 2.8rem;
-}
-
-.form-subscribe > .input-email {
-  width: 100%;
-  display: block;
-  -webkit-appearance: none;
-  border: 0;
-  font-family: inherit;
-  font-size: 2.2rem;
-  font-weight: 300;
-  background: none;
-  border-radius: 0;
-  color: white;
-  padding-left: 4%;
-  height: 80px;
-  border: none;
-  border-bottom: 3px solid white;
-}
-
-.form-subscribe > .input-email:focus {
-  outline: none;
-}
-
-.form-subscribe > .input-email:focus::placeholder {
-  color: transparent;
-}
-
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #e2dfdf;
-  opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #e2dfdf;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #e2dfdf;
-}
-
-.form-subscribe > .text-privacy {
-  font-size: 1.6rem;
-  text-align: right;
-}
-
-.form-subscribe > .text-privacy > .link-privacy {
-  text-decoration: underline;
-  font-weight: 700;
-}
-
-.form-subscribe > .btn-subscribe {
-  display: inline-block;
-  font-size: 3rem;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 100px;
-  color: #1c1a1c;
-  background-color: white;
-  width: 60%;
-  margin: 3% auto 0 auto;
-  padding: 2.5%;
-  transition: transform 1s;
-}
-
-.form-subscribe > .btn-subscribe:hover {
-  transform: translateY(-2px);
-}
+/*# sourceMappingURL=mobile.css.map */
