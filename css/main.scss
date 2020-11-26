@@ -21,6 +21,14 @@ body {
   width: 29vh;
 }
 
+.popp-text {
+  max-width: 600px;
+}
+
+.email-form {
+  max-width: 600px;
+}
+
 .btn-subscribe {
   display: inline-block;
   font-weight: bold;
@@ -50,7 +58,7 @@ body {
   border-radius: 0;
   color: white;
   padding-left: 4%;
-  height: 80px;
+  height: 48px;
   border: none;
   border-bottom: 2px solid white;
 }
@@ -88,3 +96,5 @@ body {
   text-decoration: underline;
   font-weight: 700;
 }
+
+/* Input */
