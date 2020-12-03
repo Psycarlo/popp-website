@@ -15,24 +15,28 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" type="image/png" href="/favicon.png" />
   </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="d-flex justify-content-center my-3">
+  <body class="px-md-5 m-0 p-0 py-2 d-flex flex-column justify-content-evenly">
+    <header class="m-0 p-0 mx-md-5">
+      <div class="m-0 p-0 mx-md-5">
+        <div class="d-flex justify-content-md-start justify-content-center">
           <a href="#">
             <img src="images/popp-logo.svg" class="logo" alt="Popp Logo" />
           </a>
         </div>
       </div>
     </header>
-    <section class="content">
-      <div class="container">
-        <div class="d-flex justify-content-center mx-2 mt-4">
-          <h1 class="popp-text">
-            As melhores oportunidades na tua área, numa só aplicação!
+    <section class="content m-0 p-0 mx-md-5 px-2 px-md-0">
+      <div class="col-12 m-0 p-0 px-md-5 sub-content">
+        <div class="col-xl-8 col-12 d-flex flex-column justify-content-around">
+          <h1 class="popp-text mx-2">
+            As melhores oportunidades <br />
+            na tua área,numa <br />
+            só aplicação!
           </h1>
         </div>
-        <div class="d-flex justify-content-center pr-3 mt-2">
+        <div
+          class="col-xl-4 col-12 image-container d-flex justify-content-center align-items-center align-items-xl-start m-0 p-0"
+        >
           <img
             src="images/popp-mock.png"
             class="popp-mock"
@@ -41,13 +45,13 @@
         </div>
       </div>
     </section>
-    <section class="email-form">
-      <div class="container mt-5 justify-content-center">
-        <form>
+    <section class="email-form m-0 mx-md-5">
+      <div class="col-12 m-0 p-0 px-3 px-md-5">
+        <form class="col-xl-6 col-12">
           <div class="d-flex justify-content-start">
             <span class="fs-4">Introduz o teu email</span>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-start">
             <input
               type="email"
               class="input-email"
@@ -57,26 +61,21 @@
             />
           </div>
           <div class="d-flex justify-content-end">
-            <p class="text-privacy mt-2 mr-3">
+            <p class="text-privacy mt-2">
               Lê a nossa
               <a href="#" class="link-privacy">Política de Privacidade</a>
             </p>
           </div>
-          <div class="d-flex justify-content-center mb-4">
+          <div
+            class="d-flex justify-content-lg-start justify-content-center align-items-center"
+          >
             <a class="btn-subscribe text-center">SUBSCREVE</a>
           </div>
         </form>
       </div>
     </section>
-    <div class="container">
-      <div class="d-flex justify-content-center">
-        <p class="fs-6 fw-light">&#169; Popp - 2020</p>
-      </div>
+    <div class="d-flex justify-content-center foot-container">
+      <p class="fs-6 fw-light">&#169; Popp - 2020</p>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
