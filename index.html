@@ -64,7 +64,13 @@
           <div class="d-flex justify-content-end">
             <p class="text-privacy mt-2">
               Lê a nossa
-              <a href="#" class="link-privacy">Política de Privacidade</a>
+              <a
+                type="button"
+                class="link-privacy"
+                data-toggle="modal"
+                data-target="#exampleModal"
+                >Política de Privacidade</a
+              >
             </p>
           </div>
           <div
@@ -80,7 +86,89 @@
     <div class="d-flex justify-content-center foot-container">
       <p class="fs-6 fw-light">&#169; Popp - 2020</p>
     </div>
+    <!-- Modal -->
+    <div
+      class="modal"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color: black">
+              Política de Privacidade
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="color: black">
+              <strong>INTRODUÇÃO</strong>
+              <br />
+              A POPP assegura que a informação pessoal dos nossos utilizadores
+              fica protegida aquando do acesso ao nosso website. O nosso website
+              foi desenvolvido para os nossos utilizadores terem acesso a
+              descontos e ofertas dirigidas a eles de uma maneira mais fácil e
+              conveniente. Nós garantimos que a nossa atividade se baseia num
+              interesse legítimo, e que as expectativas de privacidade dos
+              consumidores são cuidadosamente ponderadas e vão ao encontro dos
+              nossos propósitos.
+              <br />
+              <strong>A NOSSA POLÍTICA DE PRIVACIDADE</strong><br />
+              Esta política de privacidade descreve as nossas práticas relativas
+              às informações que recolhemos do utilizador, quando utiliza o
+              nosso website e a forma como iremos usar essa informação. Ao
+              utilizar o nosso website, está a aceitar expressamente os termos
+              desta política de privacidade, e a recolha e utilização da sua
+              informação, incluindo informação pessoal. Se não concorda com os
+              nossos termos, por favor não use o nosso serviço. Esta política de
+              privacidade não se aplica às práticas de empresas que não
+              possuímos ou controlamos, ou a indivíduos que não empregamos,
+              incluindo qualquer um dos terceiros aos quais podemos revelar
+              informações.
+              <br />
+              <strong>QUE INFORMAÇÃO RECOLHEMOS E PARA QUE É NECESSÁRIA</strong>
+              <br />
+              Nós recolhemos o email do utilizador, que será necessário para
+              podermos enviar as oportunidades ao utilizador que lhe possam
+              interessar.
+              <br />
+              <strong>POR QUANTO TEMPO IREMOS RETER ESSA INFORMAÇÃO</strong>
+              <br />
+              Iremos reter essa informação na nossa base de dados
+              indefinitivamente, a não ser que nos dê instruções para a
+              apagarmos. Pode contactar-nos a qualquer altura para pedir para
+              apagarmos a sua informação, através do email :
+              popp.app.pci@gmail.com
+              <br />
+              <strong>COMO NOS CONTACTAR/ CONTACTOS</strong> Se tiver quaisquer
+              questões (ou comentários) relativamente a esta política de
+              privacidade, pode contactar o nosso responsável pela proteção de
+              dados : popp.app.pci@gmail.com . Faremos um esforço para responder
+              dentro de um período de tempo razoável. Sinta-se à vontade para
+              nos contactar a qualquer altura.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
     <script>
