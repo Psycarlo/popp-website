@@ -12,7 +12,7 @@
   <br>
 </p>
 
-# Framworks
+# Frameworks
 
 [Bootstrap](https://getbootstrap.com/)
 
